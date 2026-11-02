@@ -1,0 +1,17 @@
+# phụ thuộc và kết quả build
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/schemas/
+
+# nhật ký, file tạm của trình soạn thảo / hệ điều hành
+*.log
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# khoá service account chỉ nên nằm trong vault của ứng dụng, đừng bao giờ commit
+*-key.json
+*service-account*.json
